@@ -15,7 +15,7 @@ func division(a, b float64) (float64, error) {
 
 func main() {
 
-	err, div := division(15)
+	err, div := division(15, 0)
 	if err != nil {
 		fmt.Println("Error", err.Error())
 		return
